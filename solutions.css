@@ -91,3 +91,15 @@
     border-radius:30px ;
     transform: scale(2);
 }
+
+/*esercizio 10*/
+
+.ex-10-icon{
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+   0% {
+        transform: rotate(-360deg);
+    }
+}
